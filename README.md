@@ -24,6 +24,6 @@ include(ROOT_PATH . "inc/header.php");
 
 If you are having problems figuring out the folder paths you can use the predefined php constants [here](http://www.php.net/manual/en/language.constants.predefined.php). 
 
-If you are using MAMP as your local server, the <span style="background-color: #FFFF00">htdocs</span> folder is usually your root, so you would use `/my-project/` if your project is saved in a folder named <span style="background-color: #FFFF00">my-project</span>.
+If you are using MAMP as your local server, the *htdocs* folder is usually your root, so you would use `/my-project/` if your project is saved in a folder named *my-project*.
 
-In a typical web server environment, your root folder is most likely <span style="background-color: #FFFF00">www</span> or <span style="background-color: #FFFF00">public_html</span>. So if your files are located directly inside that folder and not in a subfolder, you would use `/` for your web server path inside the `require_once()` and the `define()` functions.
+In a typical web server environment, your root folder is most likely *www* or *public_html*. So if your files are located directly inside that folder and not in a subfolder, you would use `/` for your web server path inside the `require_once()` and the `define()` functions.
