@@ -19,6 +19,8 @@ include(ROOT_PATH . "inc/header.php");
 
 <h1>Hello World!</h1>
 
+<img src="<?php echo BASE_URL; ?>assets/img/thumbs-up.png" />
+
 <?php include(ROOT_PATH . "inc/footer.php"); ?>
 ```
 
