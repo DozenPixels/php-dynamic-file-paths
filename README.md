@@ -26,4 +26,4 @@ If you are having problems figuring out the folder paths you can use the predefi
 
 If you are using MAMP as your local server, the ==htdocs== folder is usually your root, so you would use `/my-project/` if your project is saved in a folder named ==my-project==.
 
-In a typical web server environment, your root folder is most likely ==www== or ==public_html==. So if your files are located directly inside that folder and not in a subfolder, you would use `/` for your web server path inside the `require_once()` and the `define()` functions.
+In a typical web server environment, your root folder is most likely <mark>>www</mark> or <mark>public_html</mark>. So if your files are located directly inside that folder and not in a subfolder, you would use `/` for your web server path inside the `require_once()` and the `define()` functions.
